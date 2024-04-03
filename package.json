@@ -130,6 +130,7 @@
     "autorelease": "node scripts/autorelease.js",
     "prerelease:excalidraw": "node scripts/prerelease.js",
     "build:preview": "yarn build && vite preview --port 5000",
-    "release:excalidraw": "node scripts/release.js"
+    "release:excalidraw": "node scripts/release.js",
+    "release:custom": "node scripts/release_custom.js"
   }
 }
